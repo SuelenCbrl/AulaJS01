@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header" onmouseover="func2()" onmouseout="func1()">
+        <h1>Quintou !! Quase Sexta!!!</h1>
+        <h3>Login </h3>
+    </div>
+    <div onmouseover="">
+        <form id="formulario" class="form_cad" method="POST">
+            <label for="nome">Nome: </label>
+            <br>
+            <input type="text" id="email" name="email" placeholder="Digite Seu Email ">
+            <br>
+            <label for="nome">Senha: </label>
+            <br>
+            <input type="password" id="senha" name="senha" placeholder="Senha">
+            <br>
+            <label for="nome">Confirmar senha:: </label>
+            <br>
+            <input type="password" id="conf" name="conf" placeholder="Confirmar senha:">
+            <br>
+            <input type="submit" name="cad" id="cad" value="Cadastrar" onclick="valida(event)">
+        </form>
+    </div>
+    <div>
+        <span id="texto"></span>
+    </div>
+</body>
+</html>
