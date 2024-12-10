@@ -24,11 +24,11 @@
 const forms = document.getElementById("formulario")
 console.log(forms)
 
-function func1(){
-    let minhadiv = document.getElementById("header");
-    console.log(minhadiv);
-    minhadiv.style.backgroundColor = 'blue';
-}  
+// function func1(){
+//     let minhadiv = document.getElementById("header");
+//     console.log(minhadiv);
+//     minhadiv.style.backgroundColor = 'blue';
+// }  
     
     
     // var input_nome = document.getElementById("nome").value;
